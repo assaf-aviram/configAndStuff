@@ -1,0 +1,27 @@
+{
+	"basicReactComponent": {
+		"scope": "javascript,typescript,babel",
+		"prefix": "basicReactComponent",
+		"body": [
+			"import * as React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"// ------------------------------------------\n// HELPERS\n// ------------------------------------------",
+			"",
+			"// ------------------------------------------\n// STYLED COMPONENTS\n// ------------------------------------------",
+			"",
+			"// ------------------------------------------\n// COMPONENTS\n// ------------------------------------------",
+			"const ${1:$TM_FILENAME_BASE} = props => {",
+			"  const { a } = props;",
+			"  return <div>1</div>;",
+			"};",
+			"// ------------------------------------------\n// TYPES\n// ------------------------------------------",
+			"${1:$TM_FILENAME_BASE}.defaultProps = {};",
+			"${1:$TM_FILENAME_BASE}.propTypes = {};",
+			"",
+			"// EXPORT",
+			"export default ${1:$TM_FILENAME_BASE};",
+			""
+		],
+		"description": "Basic react component architechture"
+	}
+}
